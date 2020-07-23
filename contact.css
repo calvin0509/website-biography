@@ -1,0 +1,101 @@
+body{
+    background-color: #464343;
+    background-image: url(images/woman-2699801_1280.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+
+.nav-bar{
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.nav-bar a{
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    color: #f2f3f3;
+    font-family: tahoma;
+    width: 8%;  
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+    position: sticky;
+}
+
+.nav-bar a:hover {
+  transform: scale(.5);
+    color: aqua;
+}
+
+.nav-bar a.active {
+  background-color: #4CAF50;
+    float: right;
+}
+
+li{
+    display: inline;
+}
+
+.contact{
+    padding: 1em 1;
+    position: relative;
+}
+
+.contact-wrapper{
+     display: flex;
+    align-items: center;
+}
+
+.story-bg{
+    background: rgba(238, 238, 238, 0.85);
+    padding: 1em;
+    margin: 1em;
+    width: 30%;
+    border-radius: 2em 2em 2em 2em;
+    opacity: 70%;
+}
+
+.story{
+    display: flex;
+}
+.story-image{
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+}
+
+.story-text{
+    letter-spacing: 0.10em;
+}
+
+.story-text{
+    font-size: 1.2em;
+  color: var(--light-grey-color);
+}
+
+h2{
+  color: #f2f3f3;
+    font-family: tahoma;
+  position: absolute;
+  top: 45%;
+  left: 65%;
+  border-radius:10%; 
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 12px;
+    font-family: tahoma;
+    opacity: 40%
+}
+
